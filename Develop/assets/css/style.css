@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body {
@@ -19,6 +20,7 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    display:flex;
 }
 
 .header h1 {
@@ -45,6 +47,14 @@ header {
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
+}
+
+.img1 {
+    height: 5px;
+}
+
+.img2 {
+    height: 150px;
 }
 
 a {
